@@ -27,7 +27,7 @@
 
 .simple {
   margin-top: 120px;
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .mockup {
@@ -44,6 +44,20 @@
 
 .read-h {
   font-size: 40px;
+}
+
+.list-style {
+  font-size: 17px;
+  color: #0049b0;
+  font-weight: 600;
+}
+
+.fs-4 {
+  font-size: 18px !important;
+}
+
+.nav-link {
+  padding: 0 !important;
 }
 
 @media (max-width: 768px) {
