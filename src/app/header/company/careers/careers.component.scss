@@ -51,9 +51,11 @@
   margin-bottom: 80px;
 }
 
-.btn-primary {
+.btn-dark {
   background: #e6f0ff !important;
   color: #0049b0 !important;
+  border: none;
+  width: 180px;
 }
 
 @media (max-width: 768px) {
