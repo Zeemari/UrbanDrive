@@ -27,7 +27,7 @@
 
 .simple {
   margin-top: 120px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .mockup {
@@ -56,6 +56,10 @@
   font-size: 18px !important;
 }
 
+.p-5 {
+  padding: 60px 60px !important;
+}
+
 .nav-link {
   padding: 0 !important;
 }
@@ -63,5 +67,18 @@
 @media (max-width: 768px) {
   .mock-up {
     order: -1;
+  }
+
+  .simple {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+
+  .p-5 {
+    padding: 20px 20px !important;
+  }
+
+  .simp {
+    margin-top: 10px;
   }
 }
