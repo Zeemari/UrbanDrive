@@ -1,0 +1,56 @@
+.bg-light {
+  background: #fff !important;
+}
+
+.text-dark {
+  color: #212121 !important;
+}
+
+.bg-dark {
+  background: #f0f4f5 !important;
+}
+
+.btn-primary {
+  background: #0049b0 !important;
+  border: none;
+  width: 180px;
+}
+
+.simp-margin {
+  margin-top: 150px;
+}
+
+.urban-mar {
+  margin-top: 130px;
+}
+
+.cardy {
+  border: none;
+}
+
+.h-text {
+  font-size: 24px;
+}
+
+.p-text {
+  color: #747474;
+  font-size: 18px;
+}
+
+.image {
+  margin-top: -4rem;
+}
+
+.mar-fam {
+  margin-top: 100px;
+}
+
+.em-tex {
+  color: #0049b0;
+}
+
+@media (max-width: 768px) {
+  .img-man {
+    order: -1;
+  }
+}

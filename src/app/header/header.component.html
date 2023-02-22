@@ -1,0 +1,146 @@
+<!-- The navbar section -->
+<section class="bg-light">
+  <nav class="navbar navbar-light navbar-expand-lg bg-light navigation">
+    <div class="container">
+      <div class="">
+        <a [routerLink]="['']" class="navbar-brand brand_logo">
+          <img src="../../assets/image/blue 1.svg" alt="" class="img-fluid" />
+        </a>
+      </div>
+
+      <button
+        type="button"
+        class="navbar-toggler button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav margin">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle Poppins text-dark"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Company
+            </a>
+            <ul class="dropdown-menu try_border">
+              <li>
+                <a class="dropdown-item mb-2" [routerLink]="['about-us']"
+                  >About us</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item mb-2" [routerLink]="['career']"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item mb-2" [routerLink]="['contact']"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item mb-2"
+                  [routerLink]="['terms-of-service']"
+                  >Terms of service</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item mb-2" [routerLink]="['privacy-policy']"
+                  >Privacy policy</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle Poppins text-dark mser"
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Services
+            </a>
+            <ul class="dropdown-menu ty_border">
+              <li class="mb-3">
+                <a
+                  class="dropdown-item fw-bold a-size"
+                  [routerLink]="['instant-hire']"
+                  >On-Demand</a
+                >
+                <span class="ms-3 s-size">Get a driver to you right now!</span>
+              </li>
+              <li class="mb-3">
+                <a
+                  class="dropdown-item fw-bold a-size"
+                  [routerLink]="['short-hire']"
+                  >Short Term</a
+                >
+                <span class="ms-3 s-size">Hourly hires for you!</span>
+              </li>
+              <li class="mb-3">
+                <a
+                  class="dropdown-item fw-bold a-size"
+                  [routerLink]="['permanent-hire']"
+                  >Hire A Permanent Driver</a
+                >
+                <span class="ms-3 s-size"
+                  >Get a permanent driver for all your trips!</span
+                >
+              </li>
+              <li class="mb-3">
+                <a
+                  class="dropdown-item fw-bold a-size"
+                  [routerLink]="['interstate-travel']"
+                  >Inter-State Travel</a
+                >
+                <span class="ms-3 s-size"
+                  >Get a driver to travel with you!</span
+                >
+              </li>
+              <li class="mb-3">
+                <a
+                  class="dropdown-item fw-bold a-size"
+                  [routerLink]="['driver-check']"
+                  >Driver Background Check</a
+                >
+                <span class="ms-3 s-size"
+                  >Do a background check on your current driver!</span
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item mserv">
+            <a class="nav-link Poppins text-dark">Support</a>
+          </li>
+        </ul>
+        <div class="ms-auto">
+          <a
+            class="nav-link btn btn-light p-2 fs-6 Poppins"
+            role="button"
+            [routerLink]="['/contact-us']"
+            routerLinkActive="active"
+            >Become a driver</a
+          >
+        </div>
+      </div>
+    </div>
+  </nav>
+</section>
+
+<!-- The router outlet for the header section -->
+<div class="wrapper">
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
+</div>

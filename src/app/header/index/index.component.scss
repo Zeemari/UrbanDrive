@@ -1,0 +1,181 @@
+.bg-warning {
+  background: #0049b0 !important;
+}
+
+.clip-path {
+  clip-path: polygon(20% 0%, 100% 0, 100% 100%, 63% 100%);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid black;
+  width: 915.5px;
+  height: 700px;
+}
+
+.margin_move {
+  margin-top: 100px;
+}
+
+.margin_mover {
+  margin-top: 150px;
+}
+
+.p-text {
+  font-size: 10px;
+}
+
+.text-size {
+  font-size: 50px;
+  letter-spacing: 1;
+}
+
+.image {
+  margin-left: -4rem;
+}
+
+.bg-light {
+  background: #fff !important;
+}
+
+.border-illus {
+  border: none;
+}
+
+.one-stop {
+  font-size: 30px;
+}
+
+.p-ur {
+  font-size: 15px;
+}
+
+.bg-success {
+  background: #e6f0ff !important;
+}
+
+.img-pic {
+  margin-bottom: -0.3rem;
+  margin-right: -5rem;
+}
+
+.m-card {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.mockup {
+  margin-top: -6rem;
+}
+
+.bg-dark {
+  background: #f0f4f5 !important;
+}
+
+.b-mockup {
+  border: none;
+}
+
+.read-h {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .image {
+    order: -1;
+  }
+
+  .simple {
+    order: -1;
+  }
+
+  .text-size {
+    font-size: 32px;
+  }
+
+  .margin_move {
+    margin-top: -1.6rem;
+    margin-bottom: 50px;
+  }
+
+  .margin_mover {
+    margin-top: -1px;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+
+  .one-stop {
+    font-size: 24px;
+  }
+
+  .p-ur {
+    font-size: 13px;
+  }
+
+  .botom {
+    margin-bottom: 40px;
+  }
+
+  .ketut {
+    margin-bottom: -3rem;
+    margin-top: 30px;
+  }
+
+  .simple {
+    margin-bottom: 30px;
+  }
+
+  .mock-up {
+    order: -1;
+  }
+  // .clip-path {
+  //   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+  //   background-size: cover;
+  //   background-position: center;
+  //   border: 1px solid transparent;
+  //   width: 427.1px;
+  //   height: 300px;
+  // }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 360.5px) {
+  .clip-path {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+    max-width: 372px;
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 400px) {
+  .clip-path {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+    max-width: 427px;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 500px) {
+  .clip-path {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+    max-width: 477px;
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 769px) {
+  .clip-path {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+    max-width: 796px;
+    height: 370px;
+  }
+}

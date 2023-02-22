@@ -1,0 +1,60 @@
+.masthead {
+  background-size: cover;
+  background-position: cover;
+  min-height: 95vh;
+  position: relative;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.color-overlay {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+}
+
+.d-text {
+  font-size: 60px;
+}
+
+.btn-primary {
+  background: #0049b0 !important;
+  border: none;
+  width: 180px;
+}
+
+.bg-light {
+  background: #fff !important;
+}
+
+.cardy {
+  border: none;
+}
+
+.cardy-img {
+  margin-top: 105px;
+  margin-bottom: 80px;
+}
+
+.mart {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.p-text {
+  color: #747474;
+  font-size: 18px;
+}
+
+.more {
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.btn-primary {
+  background: #e6f0ff !important;
+  color: #0049b0 !important;
+}
+
+@media (max-width: 768px) {
+}
