@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { NavComponent } from '../layout/nav/nav.component';
 import { HeaderComponent } from './header.component';
 
 const routes: Routes = [
@@ -49,38 +50,42 @@ const routes: Routes = [
           ),
       },
       {
+        path: 'nav',
+        component: NavComponent,
+      },
+      {
         path: 'services',
         loadChildren: () =>
           import('./services/services.module').then((m) => m.ServicesModule),
       },
       {
-        path: 'instant-hire',
+        path: 'services/instant-hire',
         loadChildren: () =>
           import('./services/instant/instant.module').then(
             (m) => m.InstantModule
           ),
       },
       {
-        path: 'short-hire',
+        path: 'services/short-hire',
         loadChildren: () =>
           import('./services/short/short.module').then((m) => m.ShortModule),
       },
       {
-        path: 'permanent-hire',
+        path: 'services/permanent-hire',
         loadChildren: () =>
           import('./services/permanent/permanent.module').then(
             (m) => m.PermanentModule
           ),
       },
       {
-        path: 'interstate-travel',
+        path: 'services/interstate-travel',
         loadChildren: () =>
           import('./services/interstate/interstate.module').then(
             (m) => m.InterstateModule
           ),
       },
       {
-        path: 'driver-check',
+        path: 'services/driver-check',
         loadChildren: () =>
           import('./services/driver/driver.module').then((m) => m.DriverModule),
       },
