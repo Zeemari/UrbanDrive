@@ -10,3 +10,27 @@
 .cardy {
   border: none;
 }
+
+.bg-light {
+  background: #fff !important;
+}
+
+.comp-car {
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .comp-car {
+    margin-left: 15px;
+  }
+
+  .trial {
+    text-align: center;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
