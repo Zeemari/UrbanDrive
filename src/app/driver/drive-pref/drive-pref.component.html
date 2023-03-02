@@ -1,0 +1,97 @@
+<section class="bg-light height">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-center logo-pad">
+      <a [routerLink]="['']" class="navbar-brand brand_logo">
+        <img src="../../assets/image/blue 1.svg" alt="" class="img-fluid" />
+      </a>
+    </div>
+    <div class="col-12 d-flex align-items-center justify-content-center">
+      <div class="card cardy" style="width: 28rem">
+        <div class="card-body">
+          <div
+            class="d-flex align-items-center justify-content-between mb-3 my-2"
+          >
+            <i class="fas fa-arrow-left"></i>
+            <h5 class="fw-bold text-dark Poppins size">Create Account</h5>
+            <p class="text-muted Poppins">2 of 3</p>
+          </div>
+          <h6 class="card-subtitle Poppins text-size mb-3">
+            Personal Information
+          </h6>
+
+          <form>
+            <div class="form-outline mb-4">
+              <div class="accordion mb-4 d-flex align-items-center">
+                <input
+                  type="name"
+                  class="form-control Poppins rad"
+                  formControlName="first-name"
+                  name="name"
+                  placeholder="How long have you been driving?"
+                />
+
+                <i class="fas fa-chevron-down chev"></i>
+              </div>
+
+              <div class="accordion mb-4 d-flex align-items-center">
+                <input
+                  type="name"
+                  class="form-control Poppins rad"
+                  formControlName="last-name"
+                  name="name"
+                  placeholder="Have you ever driven professional before?"
+                />
+
+                <i class="fas fa-chevron-down chev"></i>
+              </div>
+
+              <div class="accordion mb-4 d-flex align-items-center">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control Poppins rad"
+                  formControlName="email"
+                  placeholder="What language(s) are you fluent in?"
+                />
+
+                <i class="fas fa-chevron-down chev"></i>
+              </div>
+
+              <div class="accordion mb-4 d-flex align-items-center">
+                <input
+                  type="name"
+                  class="form-control Poppins rad"
+                  name="name"
+                  formControlName="phone-number"
+                  placeholder="What kind of driving gigs do you want?"
+                />
+
+                <i class="fas fa-chevron-down chev"></i>
+              </div>
+
+              <div class="accordion mb-4 d-flex align-items-center">
+                <input
+                  type="name"
+                  class="form-control Poppins rad"
+                  formControlName="home-address"
+                  name="address"
+                  placeholder="Preferred car transmission type?"
+                />
+
+                <i class="fas fa-chevron-down chev"></i>
+              </div>
+            </div>
+
+            <a
+              type="submit"
+              role="button"
+              [routerLink]="['/identity-information']"
+              class="btn btn-success w-100 rad text-light form-control Poppins"
+              >Next</a
+            >
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,49 @@
+.height {
+  height: 100vh;
+}
+
+.bg-light {
+  background: #f9f7fd !important;
+}
+
+.cardy {
+  // margin-top: 80px;
+  border: none;
+  box-shadow: 0px 0px 0px #fff;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.logo-pad {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.btn-success {
+  background: #0049b0 !important;
+  border: none;
+}
+
+.rad {
+  border-radius: 10px !important;
+  height: 40px;
+  font-size: 13px;
+}
+
+.text-size {
+  font-size: 15px;
+}
+
+.size {
+  font-size: 18px !important;
+}
+
+.chev {
+  margin-left: -2rem;
+}
+
+@media (max-width: 768px) {
+  .height {
+    height: 100vh;
+  }
+}
