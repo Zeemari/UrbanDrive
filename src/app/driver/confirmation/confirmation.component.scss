@@ -24,12 +24,6 @@
   border: none;
 }
 
-.rad {
-  border-radius: 10px !important;
-  height: 40px;
-  font-size: 13px;
-}
-
 .text-size {
   font-size: 15px;
 }
@@ -51,14 +45,20 @@
   margin-top: 10px;
 }
 
-.bg-success {
-  background: rgba(0, 127, 255, 0.075) !important;
-  color: #0049b0 !important;
-}
-
 .p-text {
   font-size: 10px;
   font-weight: 500px;
+}
+
+.rad {
+  border-radius: 10px !important;
+  height: 40px;
+  font-size: 13px;
+}
+
+.bg-success {
+  background: rgba(0, 127, 255, 0.075) !important;
+  color: #0049b0 !important;
 }
 
 @media (max-width: 768px) {

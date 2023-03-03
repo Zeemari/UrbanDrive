@@ -58,5 +58,22 @@
   width: 180px;
 }
 
+.search {
+  height: 38px;
+  width: 300px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 12px;
+}
+
+.search_bar {
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+}
+
 @media (max-width: 768px) {
 }

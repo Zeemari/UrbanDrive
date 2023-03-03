@@ -48,7 +48,7 @@ const routes: Routes = [
       ),
   },
   {
-    path: 'influencer-confirm',
+    path: 'influencer-confirmation',
     loadChildren: () =>
       import('./driver/influencer-confirm/influencer-confirm.module').then(
         (m) => m.InfluencerConfirmModule
