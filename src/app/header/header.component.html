@@ -122,12 +122,17 @@
             </ul>
           </li>
           <li class="nav-item mserv">
-            <a class="nav-link Poppins text-dark">Support</a>
+            <a
+              class="nav-link Poppins text-dark"
+              role="button"
+              [routerLink]="['/']"
+              >Support</a
+            >
           </li>
         </ul>
         <div class="ms-auto">
           <a
-            class="nav-link btn btn-light fw-bold p-2 fs-6 Poppins"
+            class="nav-link btn btn-success fw-bold p-2 fs-6 Poppins"
             role="button"
             [routerLink]="['/partner']"
             routerLinkActive="active"

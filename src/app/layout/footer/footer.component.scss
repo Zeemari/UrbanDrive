@@ -19,21 +19,38 @@
   margin-left: auto;
 }
 
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+.size {
+  font-size: 15px;
+}
+
+.stylea {
+  font-size: 15px;
+}
+
 @media (max-width: 768px) {
   .comp-car {
     margin-left: 15px;
   }
 
-  .trial {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .style-links {
+    order: -1;
   }
 
-  .icon {
+  .social-links {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 14px;
+  }
+
+  .size {
+    text-align: center;
   }
 }

@@ -3,10 +3,10 @@
     <div class="row margint">
       <div class="col-sm-12 col-md-4 col-lg-4 mb-4">
         <div class="ms-2">
-          <a class="navbar-brand brand_logo">
+          <a class="navbar-brand brand_logo" [routerLink]="['']">
             <img src="../../assets/image/blue 1.svg" alt="" class="img-fluid" />
           </a>
-          <p class="p-text Poppins mt-4">
+          <p class="p-text Poppins mt-4 stylea">
             UrbanDrive would facilitate seamless driving services within lagos
             metropolies and surrounding communities, thereby generating
             employment for providers and convenience for users
@@ -19,20 +19,40 @@
             <div class="card cardy">
               <ul class="navbar-nav ms-3 Poppins">
                 <h5 class="p-text Poppins fw-bold">Services</h5>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark">Instant Hire </a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark"
+                    [routerLink]="['/services/instant-hire']"
+                    >Instant Hire
+                  </a>
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark">Short Term Hire</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark"
+                    [routerLink]="['/services/short-hire']"
+                    >Short Term Hire</a
+                  >
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark">Permanent Hire</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark"
+                    [routerLink]="['/services/permanent-hire']"
+                    >Permanent Hire</a
+                  >
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark">Interstate Travel</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark"
+                    [routerLink]="['/services/interstate-travel']"
+                    >Interstate Travel</a
+                  >
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark">Check My Driver</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark"
+                    [routerLink]="['/services/driver-check']"
+                    >Check My Driver</a
+                  >
                 </li>
               </ul>
             </div>
@@ -41,11 +61,17 @@
             <div class="card cardy">
               <ul class="navbar-nav ms-3 Poppins">
                 <h5 class="p-text Poppins fw-bold">Partner with us</h5>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark">Sign up as a Driver </a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark"
+                    [routerLink]="['/personal-info']"
+                    >Sign up as a Driver
+                  </a>
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark">Become an Ambassador</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a class="nav-link text-dark" [routerLink]="['/influencers']"
+                    >Become an Ambassador</a
+                  >
                 </li>
               </ul>
             </div>
@@ -54,20 +80,40 @@
             <div class="card cardy">
               <ul class="navbar-nav comp-car">
                 <h5 class="p-text Poppins fw-bold">Company</h5>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark Poppins">About Us </a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark Poppins"
+                    [routerLink]="['/about-us']"
+                    >About Us
+                  </a>
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark Poppins">Careers</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark Poppins"
+                    [routerLink]="['/career']"
+                    >Careers</a
+                  >
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark Poppins">Contact</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark Poppins"
+                    [routerLink]="['/contact']"
+                    >Contact</a
+                  >
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark Poppins">Terms of Service</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark Poppins"
+                    [routerLink]="['/terms-of-service']"
+                    >Terms of Service</a
+                  >
                 </li>
-                <li class="nav-item me-3 mb-1">
-                  <a class="nav-link text-dark Poppins">Privacy Policy</a>
+                <li class="nav-item me-3 mb-1 stylea">
+                  <a
+                    class="nav-link text-dark Poppins"
+                    [routerLink]="['/privacy-policy']"
+                    >Privacy Policy</a
+                  >
                 </li>
               </ul>
             </div>
@@ -78,16 +124,14 @@
 
     <div class="row border-top">
       <!-- <div class="col-12 d-flex align-items-center justify-content-between"> -->
-      <div class="col-sm-12 col-md-12 col-lg-6 mt-3 trial">
-        <p class="fw-normal text-secondary Poppins">
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-3">
+        <p class="fw-normal text-secondary Poppins size">
           © 2022 UrbanDrive. All rights reserved
         </p>
       </div>
-      <div
-        class="col-sm-12 col-md-12 col-lg-6 mt-3 d-flex align-items-center justify-content-end trial icon"
-      >
+      <div class="col-sm-12 col-md-12 col-lg-6 mt-3 style-links">
         <div class="card cardy">
-          <div class="d-flex align-items-center justify-content-center gap-4">
+          <div class="social-links">
             <i class="bi bi-twitter"></i>
             <i class="bi bi-instagram"></i>
             <i class="bi bi-linkedin"></i>

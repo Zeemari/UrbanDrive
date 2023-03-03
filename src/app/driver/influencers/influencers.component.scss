@@ -1,0 +1,79 @@
+.cardy {
+  border: none;
+  border-radius: 15px;
+}
+
+.bg-banner {
+  background-size: cover;
+  background-position: cover;
+  min-height: 100vh;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.size {
+  font-size: 8px;
+}
+
+.disa {
+  margin-top: 120px;
+}
+
+.d-text {
+  font-size: 56px;
+}
+
+.btn-success {
+  background: #0049b0 !important;
+  color: #fff !important;
+  border-radius: 15px;
+  border: none;
+}
+
+.style {
+  width: 18px;
+  height: 18px;
+}
+
+// .disapp {
+//   width: 90px;
+//   height: 90px;
+// }
+
+.in-style {
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    // margin-top: -2rem;
+  }
+
+  .style-links {
+    order: -1;
+  }
+
+  .size {
+    text-align: center;
+  }
+
+  .disa {
+    display: none;
+  }
+
+  .disapp {
+    display: none;
+  }
+}

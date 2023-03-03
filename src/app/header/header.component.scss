@@ -47,11 +47,18 @@
   color: #000 !important;
 }
 
-.btn-light {
+.btn-success {
   background: #e6f0ff !important;
   color: #0049b0 !important;
   border: none;
   border-radius: 10px;
+}
+
+.btn-light:hover {
+  background: #e6f0ff !important;
+  color: #0049b0 !important;
+  border-radius: 10px;
+  border: none;
 }
 
 .fs-6 {
