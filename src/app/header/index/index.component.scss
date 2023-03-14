@@ -2,17 +2,31 @@
   background: #0049b0 !important;
 }
 
-.clip-path {
+.pad {
+  padding: 0 12px;
+}
+
+.main-image {
   clip-path: polygon(20% 0%, 100% 0, 100% 100%, 63% 100%);
   background-size: cover;
   background-position: center;
-  border: 1px solid black;
-  width: 915.5px;
-  height: 700px;
+  background-repeat: no-repeat;
+  // border: 1px solid black;
+  margin-top: 70px;
+  height: 90vh;
 }
 
 .margin_move {
-  margin-top: 100px;
+  margin-top: -4rem;
+}
+
+.h-style {
+  padding-left: 160px;
+  color: #fff;
+}
+
+.cardy {
+  border: none;
 }
 
 .margin_mover {
@@ -21,11 +35,11 @@
 }
 
 .p-text {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .text-size {
-  font-size: 50px;
+  font-size: 56px;
   letter-spacing: 1;
 }
 
@@ -100,6 +114,22 @@ a {
     order: -1;
   }
 
+  .main-image {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    // border: 1px solid black;
+    margin-top: 60px;
+    height: 40vh;
+    order: -1;
+  }
+
+  .h-style {
+    padding-left: 8px;
+    color: #fff;
+  }
+
   .simple {
     order: -1;
   }
@@ -147,57 +177,5 @@ a {
 
   .mock-up {
     order: -1;
-  }
-  // .clip-path {
-  //   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-  //   background-size: cover;
-  //   background-position: center;
-  //   border: 1px solid transparent;
-  //   width: 427.1px;
-  //   height: 300px;
-  // }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 360.5px) {
-  .clip-path {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    background-size: cover;
-    background-position: center;
-    border: 1px solid transparent;
-    max-width: 372px;
-    height: 250px;
-  }
-}
-
-@media only screen and (min-width: 375px) and (max-width: 400px) {
-  .clip-path {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    background-size: cover;
-    background-position: center;
-    border: 1px solid transparent;
-    max-width: 427px;
-    height: 300px;
-  }
-}
-
-@media only screen and (min-width: 412px) and (max-width: 500px) {
-  .clip-path {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    background-size: cover;
-    background-position: center;
-    border: 1px solid transparent;
-    max-width: 477px;
-    height: 300px;
-  }
-}
-
-@media only screen and (min-width: 700px) and (max-width: 769px) {
-  .clip-path {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    background-size: cover;
-    background-position: center;
-    border: 1px solid transparent;
-    max-width: 796px;
-    height: 370px;
   }
 }
